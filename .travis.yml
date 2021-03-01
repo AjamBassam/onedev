@@ -1,8 +1,8 @@
 language: java
+
 jdk:
-  - openjdk11
-before_install:
-  - chmod +x mvn
+  - openjdk8
+
 script: mvn clean install
 
 notifications:
