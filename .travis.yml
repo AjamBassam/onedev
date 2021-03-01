@@ -9,6 +9,3 @@ jobs:
   include:
     - stage: Test
       script: mvn clean test
-
-notifications:
-  email: bassam.ajam95@gmail.com
